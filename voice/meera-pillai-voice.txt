@@ -1,0 +1,79 @@
+MEERA PILLAI / SKINSTINCT — FOUNDER VOICE PROFILE
+Source: 4 LinkedIn posts + 11 email newsletters (published seed data, MESA Case 1)
+
+WHO SHE IS ON THE PAGE
+A skincare founder with a pharmaceutical-formulation background (not a dermatologist, no medical degree, says so explicitly). Her authority comes from process knowledge — pH, CoA testing, batch documentation, stability protocols — not credentials or charisma. She writes like someone explaining something to a smart friend who's been mildly misled by marketing, not like someone selling.
+
+1. HOW SHE OPENS
+She never opens with a greeting-as-warmup, a question to hook the reader, or an industry "did you know" stat. Every piece opens one of three ways:
+
+- A flat, specific claim aimed at the reader's own situation. Example: "The niacinamide serum you're using probably has the ingredient listed at 5% or 10% on the label. That number is almost certainly meaningless..."
+- A dated, placed scene, told flatly. Example: "In 2021 I was sitting in a stability review meeting at the pharma company I worked for." Also: "Last September I was at a trade fair in Mumbai. One of the booths had a banner that said: CLINICALLY TESTED. DERMATOLOGIST APPROVED."
+- A meta-admission about her own reluctance to write the piece. Example: "I've been avoiding writing this one because..." / "I almost didn't write this email, because..." / "I want to be careful writing this one because I've seen this conversation go badly in both directions."
+
+Newsletters always start "Hi," on its own line, then go straight into one of the above — no "Hope you're well," no recap of the last email.
+
+Rule: open with a fact, a scene, or an honest statement of hesitation. Never open with hype, a question mark, or small talk.
+
+2. SENTENCE LENGTH AND RHYTHM
+Her paragraphs run long-to-short: she builds out the complexity in longer, clause-heavy sentences, then lands the point in a short flat sentence or a run of short sentences with almost no connective tissue.
+
+Signature pattern — the triplet drop: three short declaratives in a row, unembellished, letting the facts do the work.
+- "Nobody else in the room asked about it. The formulation passed review. I left the company 7 months later."
+- "The actives were intact. The formulation was working as designed. It was designed for the wrong context."
+- "This is legal. It is also not helpful."
+
+Signature move — long setup, short verdict: a sentence or two of technical nuance, then a two-to-six word sentence that closes it.
+- "I asked about the pH of the finished formula. The answer was 3.2."
+- "Niacin is not inert. It causes vasodilation."
+
+She also uses one-line paragraph fragments as section pivots: "The longer version." / "More on specific actives in the next few emails."
+
+Average sentence length is moderate (roughly 15–25 words) in explanatory passages, dropping to 3–8 words at emphasis points. No em-dash-heavy run-ons, no rhetorical questions stacked for effect, no casual sentence fragments ("Anyway." "So."). The short sentences are doing analytical work, not conversational filler.
+
+3. USE OF DATA AND EVIDENCE
+- Leads with her own operational data before external research: return rates, CoA results, repeat-purchase rate, batch testing intervals. Example: "23% of our product returns... 71% were from customers in cities with average annual humidity above 70%." "Our repeat purchase rate at 12 months is 67%."
+- When citing external research, she's precise, not vague: names the institution, year, and measurement unit. Example: "A 2022 study from the University of Liverpool measuring real-world SPF application found that most people apply between 0.5-1mg per square centimetre."
+- She explicitly grades evidence strength rather than treating all evidence as equal: "solid and replicable across well-controlled studies" versus "the direct efficacy research is thinner" versus "in-vitro results are consistent, the clinical results are more variable."
+- She distinguishes mechanism from proof of consumer-facing efficacy: "the mechanism is real... the research gap is in the translation from mechanism to commercial product efficacy."
+- She volunteers her own product's gaps and absences as evidence of good faith: "We don't currently sell a Vitamin C product," "We don't currently sell a peptide product," "some of our testing is early stage."
+- Hedge words recur deliberately: almost certainly, probably, generally, in practice, plausible, worth investigating further. These calibrate confidence rather than soften a sales pitch.
+- She turns data into an instruction for the reader, not just a claim: "If you email any skincare brand asking for the pH of their active product and they can't answer, that tells you something useful."
+
+4. WHAT SHE NEVER SAYS
+- No exclamation points. No emojis. No hype adjectives ("amazing," "powerful," "revolutionary," "game-changing").
+- Never claims her own product is flawless or best-in-class. She undersells if anything: "It is not a particularly inspiring story." "The product isn't dangerous, but it's delivering less than it was when you opened it."
+- No calls-to-action in the sales sense — no "Shop now," "Limited time," "Don't miss out."
+- No flattery of the reader ("You deserve...", "You're so smart to ask...").
+- Doesn't name-and-shame specific competitor brands — describes practices generically ("a booth at a trade fair," "other brands") rather than calling anyone out by name.
+- Avoids absolutist verdicts on ingredients. Never "X is good" or "X is bad" — always conditional on concentration, pH, delivery base, or context. Even parabens get a nuanced treatment, not a blanket condemnation.
+- Doesn't use "clean," "natural," or "chemical-free" as unexamined marketing terms — when these words appear, it's to take them apart.
+- Rarely gives a direct imperative unless it's disinterested advice, not a sales push ("ask for it," "strip back the routine before building it up") — the imperative serves the reader's judgment, not a purchase.
+- Doesn't perform humility or gratitude in a syrupy way — thanks are brief and specific, never effusive.
+
+5. HOW PERSONAL SHE GETS
+Personal disclosure is real but strictly operational/intellectual, almost never emotional.
+
+She will tell you:
+- Her professional history in one flat sentence ("I spent two years working in pharmaceutical formulation before starting Skinstinct").
+- Her credential gap, stated plainly, no defensiveness ("I'm not a dermatologist. I don't have a medical degree.").
+- Specific business numbers most founders wouldn't publish (return rates, repeat-purchase rate, a 14-month failure to formulate a product).
+- Her own mistakes and misses, without self-flagellation ("it took us embarrassingly long to make the connection," "I just didn't anticipate it would be such a significant part of what we do").
+- Her reasoning behind a decision, framed as a choice she owns ("I decided the case for including it wasn't strong enough to justify either of those things," "I made a different choice because...").
+
+She will not tell you:
+- How she felt (stressed, proud, anxious, excited) — the closest she gets is dry understatement ("which is longer than I planned and shorter than it apparently needed," "I'll take it").
+- Anything about life outside the company (no family, hobbies, weekend-life texture).
+- Inspirational-founder framing — she actively resists it: "I am not trying to build a brand story around a single meeting." "I'm not sure I had a celebration version of this year to give you."
+
+Sign-off: first name only, "Meera," no title, no company name after it. Occasionally a one-line closer that's plain rather than warm: "Thank you for reading these emails. I mean that specifically, not as a sign-off."
+
+QUICK DRAFTING CHECKLIST
+Before finalizing a piece in her voice, check:
+1. Does it open with a fact, a dated scene, or an honest "I almost didn't write this"? (Not a greeting, not a question.)
+2. Is there at least one long-setup-then-short-verdict moment, or a triplet of short flat sentences?
+3. Is every claim about efficacy tied to a concrete number, condition, or caveat (pH, concentration, base, sample size)?
+4. Has she admitted a limit — of her own product, her own credentials, or the evidence itself?
+5. Is it free of exclamation points, hype adjectives, competitor call-outs, and sales CTAs?
+6. If she gets personal, is it about a decision, a number, or a professional fact — not a feeling?
+7. Does it end without a flourish — a plain statement, sometimes just "Meera"?
