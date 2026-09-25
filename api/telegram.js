@@ -1,5 +1,7 @@
-import { generateDraft } from "../lib/gemini.js";
+import { generateDraft, scoreNote } from "../lib/gemini.js";
 import { sendMessage, sendTyping } from "../lib/telegram.js";
+
+const MIN_SCORE = 6;
 
 const HELP_TEXT =
   "Send me a note as a text message and I'll reply with a draft post in your voice.\n\n" +
@@ -14,7 +16,9 @@ function isAllowed(chatId) {
   return allowed.length === 0 || allowed.includes(String(chatId));
 }
 
-// Flow: Meera's typed note -> draft in her voice (Gemini) -> back to Meera to review and post.
+// Flow: Meera's typed note -> Gemini scores it -> if it has enough substance,
+// draft in her voice (Gemini) -> back to Meera to review and post. Otherwise
+// she gets the reason and nothing else happens.
 // Telegram webhook endpoint: POST /api/telegram
 export default async function handler(req, res) {
   if (req.method !== "POST") {
@@ -45,8 +49,19 @@ export default async function handler(req, res) {
       await sendMessage(chatId, HELP_TEXT);
     } else {
       await sendTyping(chatId);
-      const draft = await generateDraft(text);
-      await sendMessage(chatId, draft, message.message_id);
+      const { score, reason } = await scoreNote(text);
+
+      if (score < MIN_SCORE) {
+        await sendMessage(
+          chatId,
+          reason || "This note doesn't have quite enough substance for a post yet.",
+          message.message_id
+        );
+      } else {
+        await sendTyping(chatId);
+        const draft = await generateDraft(text);
+        await sendMessage(chatId, draft, message.message_id);
+      }
     }
   } catch (err) {
     console.error("Failed to handle update:", err);
