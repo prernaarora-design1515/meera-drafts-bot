@@ -48,6 +48,8 @@ No npm packages are needed. It uses Node 20+'s built-in `fetch`.
 - Any text message is treated as a note and turned into a LinkedIn post.
 - If the note mentions "newsletter" or "email", Gemini writes that format instead.
 - `/start` or `/help` shows instructions. `/id` shows the chat ID.
+- Every note is scored 0–10 for substance first (`lib/gemini.js`'s `scoreNote`). Below 6, the note is rejected with the reason and no draft is written.
+- Notes that pass the score check also get a news angle: Gemini pulls 3–5 search terms from the note, those terms search Google News RSS, and the top result is offered to the drafting step. It's used only if genuinely relevant — the draft ends with a `Source:` line and link when it was, and looks exactly as before when it wasn't. If the news lookup fails for any reason, drafting continues without it.
 
 ## Changing the voice
 

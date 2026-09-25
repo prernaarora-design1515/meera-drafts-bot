@@ -1,4 +1,5 @@
-import { generateDraft, scoreNote } from "../lib/gemini.js";
+import { extractSearchTerms, generateDraft, scoreNote } from "../lib/gemini.js";
+import { getTopNewsResult } from "../lib/news.js";
 import { sendMessage, sendTyping } from "../lib/telegram.js";
 
 const MIN_SCORE = 6;
@@ -58,7 +59,18 @@ export default async function handler(req, res) {
         // Score sent separately so the draft message below stays clean to copy into LinkedIn.
         await sendMessage(chatId, scoreLine, message.message_id);
         await sendTyping(chatId);
-        const draft = await generateDraft(text);
+
+        // News angle is best-effort: any failure here (Gemini, RSS, parsing)
+        // just falls back to drafting from the note alone.
+        let newsItem = null;
+        try {
+          const terms = await extractSearchTerms(text);
+          newsItem = await getTopNewsResult(terms);
+        } catch (err) {
+          console.error("News lookup failed, drafting without it:", err);
+        }
+
+        const draft = await generateDraft(text, newsItem);
         await sendMessage(chatId, draft);
       }
     }
