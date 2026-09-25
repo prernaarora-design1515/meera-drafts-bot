@@ -50,17 +50,16 @@ export default async function handler(req, res) {
     } else {
       await sendTyping(chatId);
       const { score, reason } = await scoreNote(text);
+      const scoreLine = `Score: ${score}/10${reason ? ` — ${reason}` : ""}`;
 
       if (score < MIN_SCORE) {
-        await sendMessage(
-          chatId,
-          reason || "This note doesn't have quite enough substance for a post yet.",
-          message.message_id
-        );
+        await sendMessage(chatId, scoreLine, message.message_id);
       } else {
+        // Score sent separately so the draft message below stays clean to copy into LinkedIn.
+        await sendMessage(chatId, scoreLine, message.message_id);
         await sendTyping(chatId);
         const draft = await generateDraft(text);
-        await sendMessage(chatId, draft, message.message_id);
+        await sendMessage(chatId, draft);
       }
     }
   } catch (err) {
